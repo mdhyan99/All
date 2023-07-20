@@ -1,0 +1,21 @@
+body{
+   padding: 0px 400px;
+}
+.seite{
+    border: 1px dotted gray;
+
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    align-items: center;
+    border-bottom: 1px dotted gray;
+}
+.lanag-kenntniss ,.beruf-weiter{
+    /* display: flex;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    border-bottom: 1px dotted gray;
+    padding: 0 10px;
+}
